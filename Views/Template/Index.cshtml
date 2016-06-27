@@ -1,0 +1,53 @@
+﻿@model ebay.ViewModels.Template
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@* Top Image with Title and Subtitle *@
+<div class="row">
+        <div id="TopImage">
+            <a class="TopImage">
+                <span>@Model.Title</span>
+                <div class="bg"></div>
+            </a>
+        </div>
+</div>
+<div class="row">
+    <div class="div-content">
+        @foreach (var imageName in Model.Images)
+        {
+            <img src="~/TemplateContent/@Model.NameKey/Images/@imageName" class="floatingImage" />
+        }
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-6 col-md-offset-3">
+        @Html.Raw(Model.Part1)
+    </div>
+</div>
+<br />
+<div class="row">
+        <div id="MiddleImage">
+            <a class="MiddleImage">
+                <span>@Model.DividerText1</span>
+                <div class="bg"></div>
+            </a>
+        </div>
+</div>
+<div class="row">
+    <div class="col-md-6 col-md-offset-3">
+        @Html.Raw(@Model.Part2)
+    </div>
+</div>
+<hr />
+<div class="row">
+    <div class="col-md-6 col-md-offset-3">
+        @Html.Partial("Posting")
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-6 col-md-offset-3">
+        @Html.Partial("ReturnsPolicy")
+    </div>
+</div>

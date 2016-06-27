@@ -1,0 +1,86 @@
+﻿#TopImage{
+  width: 100%;
+  height: 560px;
+}
+#TopImage a {
+  background-size: cover;
+  display: block;
+  float: left;
+  width: 100%;
+  height: 560px;
+  overflow: visible;
+}
+.TopImage {
+  position: relative;
+  background-image: none;
+  overflow: visible;
+}
+.TopImage .bg {
+  background-image: url('../images/topImage.jpg');
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-background-size: cover;
+  background-size: cover;
+  -webkit-filter: brightness(80%) contrast(90%);
+  filter: brightness(80%) contrast(90%);
+}
+.TopImage span {
+  position: absolute;
+  display: block;
+  top: 30%;
+  width: 64%;
+  left: 10%;
+  height: 100px;
+  margin-top: -50px;
+  color: #fff;
+  font-size: 5em;
+  font-weight: 100;
+  text-align: left;
+  z-index: 99999;
+}
+
+
+#MiddleImage a {
+  background-size: cover;
+  display: block;
+  float: left;
+  width: 100%;
+  height: 660px;
+  overflow: visible;
+}
+.MiddleImage {
+  position: relative;
+  background-image: none;
+  overflow: visible;
+}
+.MiddleImage .bg {
+  background-image: url('../images/middleImage.jpg');
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-background-size: cover;
+  background-size: cover;
+  -webkit-filter: brightness(100%) contrast(90%);
+  filter: brightness(100%) contrast(90%);
+}
+.MiddleImage span {
+  position: absolute;
+  display: block;
+  top: 30%;
+  width: 64%;
+  left: 5%;
+  height: 100px;
+  margin-top: -50px;
+  color: #fff;
+  font-size: 5em;
+  font-weight: 100;
+  text-align: left;
+  z-index: 99999;
+}
+
+.floatingImage {
+  display: inline-block;
+  max-width: 300px;
+  margin: 1em;
+}
