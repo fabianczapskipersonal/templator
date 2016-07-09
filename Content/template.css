@@ -16,7 +16,7 @@
   overflow: visible;
 }
 .TopImage .bg {
-  background-image: url('../images/topImage.jpg');
+  background-image: url('http://52.58.241.59//images/topImage.jpg');
   position: absolute;
   width: 100%;
   height: 100%;
@@ -55,7 +55,7 @@
   overflow: visible;
 }
 .MiddleImage .bg {
-  background-image: url('../images/middleImage.jpg');
+  background-image: url('http://52.58.241.59//images/middleImage.jpg');
   position: absolute;
   width: 100%;
   height: 100%;

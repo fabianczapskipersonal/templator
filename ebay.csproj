@@ -255,14 +255,11 @@
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\_references.js" />
-    <Content Include="TemplateContent\aaa.mp4" />
     <Content Include="TemplateContent\ApricotKernels\Divider.html" />
     <Content Include="TemplateContent\ApricotKernels\Images\Apricot2.JPG" />
     <Content Include="TemplateContent\ApricotKernels\Part1.html" />
     <Content Include="TemplateContent\ApricotKernels\Part2.html" />
     <Content Include="TemplateContent\ApricotKernels\Title.html" />
-    <Content Include="TemplateContent\big_buck_bunny.mp4" />
-    <Content Include="TemplateContent\topVideo.mp4" />
     <Content Include="TemplateContent\xylitol\Divider.html" />
     <Content Include="TemplateContent\xylitol\Part1.html" />
     <Content Include="TemplateContent\xylitol\Part2.html" />

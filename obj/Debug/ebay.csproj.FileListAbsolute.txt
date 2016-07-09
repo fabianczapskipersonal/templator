@@ -85,3 +85,4 @@ c:\users\fabian.czapski\documents\visual studio 2015\Projects\ebay\ebay\bin\Micr
 c:\users\fabian.czapski\documents\visual studio 2015\Projects\ebay\ebay\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 c:\users\fabian.czapski\documents\visual studio 2015\Projects\ebay\ebay\obj\Debug\ebay.dll
 c:\users\fabian.czapski\documents\visual studio 2015\Projects\ebay\ebay\obj\Debug\ebay.pdb
+C:\Users\fabian.czapski\documents\visual studio 2015\Projects\ebay\ebay\obj\Debug\ebay.csprojResolveAssemblyReference.cache
